@@ -22,7 +22,9 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0.88"
+            "Test::More" : "0.88",
+            "Test::Pod" : "0",
+            "Test::Pod::Coverage" : "0"
          }
       },
       "configure" : {
@@ -53,5 +55,5 @@
          "url" : "https://github.com/maximusfox/WebService--Gyazo"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
